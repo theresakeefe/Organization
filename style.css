@@ -3,6 +3,12 @@ body {
 	color:#262626;
 }
 
+body {
+	background-color:#ecb3ff;
+    font-family: DIN Alternate;
+	Color: #007399;
+	}
+	
  {
   margin: 0;
   padding: 0;
@@ -29,7 +35,7 @@ body {
   color: #fff;
   display: block;
   padding-left: 15px;
-  border-bottom: 1px solid #888;
+  border-bottom: 4px solid #888;
   transition: .3s background-color;
 }
 
@@ -73,7 +79,7 @@ body {
 /*this is the css to float*/
 
 #content {
-width: 200px;
+width: 100px;
 float: left;
 }
 
