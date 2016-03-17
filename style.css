@@ -1,14 +1,11 @@
 body {
-	background-color:#ecb3ff;
-    font-family: DIN Alternate;
-	Color: #5900b3;
-	}
-	
- {
-  margin: 0;
-  padding: 0;
-  background: #ccc;
-}
+     background-color:#ecb3ff;
+     font-family: DIN Alternate;
+     color: #5900b3;
+     margin: 0;
+     padding: 0;
+  /* background: #ccc; This is the color grey; however, your site is purple. Superfluous Code */
+     }
 
 .nav ul {
   list-style: none;
