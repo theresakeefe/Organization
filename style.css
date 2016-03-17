@@ -1,12 +1,7 @@
 body {
-	font-family:Georgia;
-	color:#262626;
-}
-
-body {
 	background-color:#ecb3ff;
     font-family: DIN Alternate;
-	Color: #007399;
+	Color: #5900b3;
 	}
 	
  {
@@ -24,7 +19,6 @@ body {
 }
 
 .nav li {
-  font-family:Candara;
   font-size: 2em;
   line-height: 40px;
   text-align: left;
@@ -81,19 +75,14 @@ body {
 #content {
 width: 100px;
 float: left;
+padding: 0px 0px 0px 100px
 }
 
 #content2 {
-width:300px;
+width:150px;
 float: right;
-padding: 0px 200px 0px
+padding:0px 200px 0px
 0px;
-}
-
-body {
-	background-color:;
-	font-family:Georgia;
-	color:#262626;
 }
 
 #navigation {
@@ -130,7 +119,7 @@ margin; 0;
 }
 
 .nav li {
-  font-family:Candara;
+  
   font-size: 2em;
   line-height: 40px;
   text-align: left;
