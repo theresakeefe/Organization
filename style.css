@@ -22,89 +22,58 @@ float: right;
 padding:0px 200px 0px
 0px;
 }
+/********************************************** McGeehan Dropdown Navigation Bar *******************************************/
 
-#navigation {
-padding:0;
-margin; 0;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
 
-#navigation li{
-	display:inline;
-	float:center;
-	}
-	
-#navigation a, #navigation a:visited{
-	display: block;
-	width: 600px;
-	border:1px solid #007399;
-	font-size: 0.8em;
-	text-align: center;
-	text-decoration: none;
-	}
-
- {
-  margin: 0;
-  padding: 0;
-  background: #ccc;
+li {
+    float: left;
 }
 
-.nav ul {
-  list-style: none;
-  background-color: #444;
-  text-align: center;
-  padding: 0;
-  margin: 0;
-}
-
-.nav li {
-  
-  font-size: 2em;
-  line-height: 40px;
-  text-align: left;
-}
-
-.nav a {
-  text-decoration: none;
-  color: #fff;
-  display: block;
-  padding-left: 15px;
-  border-bottom: 1px solid #888;
-  transition: .3s background-color;
-}
-
-.nav a:hover {
-  background-color: #005f5f;
-}
-
-.nav a.active {
-  background-color: #aaa;
-  color: #444;
-  cursor: default;
-}
-
-@media screen and (min-width: 650px) {
-  .nav li {
-    width: 130px;
-    border-bottom: none;
-    height: 50px;
-    line-height: 50px;
-    font-size: 1.4em;
+li a, .dropbtn {
     display: inline-block;
-    margin-right: -4px;
-  }
-
-  .nav a {
-    border-bottom: none;
-  }
-
-  .nav > ul > li {
+    color: white;
     text-align: center;
-  }
-
-  .nav > ul > li > a {
-    padding-left: 0;
-  }
-  
-.dropdown:hover .dropdown-content {
-	display: block;
+    padding: 14px 16px;
+    text-decoration: none;
 }
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/**************************************************************************************************************************/
+
+
